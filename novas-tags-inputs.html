@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags input HTML 5</title>
+  </head>
+  <body>
+    
+    <form>
+
+      <!-- Associar Label com elementos - Boa prática -->
+      <label for="nome">Nome</label>
+      <input type="text" id="nome">
+      <br><br>
+
+      <!-- Novas Imputs e atributos HTML 5 -->
+      <!-- Email Atributo required -->
+      <label for="email">Email</label>
+      <input type="email" id="email">
+      <br><br>
+
+      <!-- Número -->
+      <label for="numero">Número</label>
+      <input type="number" id="numero" min="1" max="10" step="2">
+      <br><br>
+
+      <!-- Url -->
+      <label for="url">Url</label>
+      <input type="url" id="url" placeholder="ex: https://www.google.com.br">
+      <br><br>
+
+      <!-- Pesquisar -->
+      <label for="pesquisa">Pesquisa</label>
+      <input type="search" id="pesquisa" placeholder="ex: digite algo...">
+      <br><br>
+
+      <!-- Range -->
+      <label for="range">Range</label>
+      <input type="range" id="range" min="1" max="10" value="5">
+      <br><br>
+
+      <!-- Pesquisar -->
+      <label for="pesquisa">Pesquisa</label>
+      <input type="search" id="pesquisa">
+      <br><br>
+
+      <!-- Data -->
+      <label for="data">Data</label>
+      <input type="date" id="data" placeholder="ex: digite algo...">
+      <br><br>
+
+      <!-- Cor -->
+      <label for="cor">Cor</label>
+      <input type="color" id="cor">
+      <br><br>
+      
+      <input type="submit" value="enviar">
+    </form>
+
+  </body>
+</html>
